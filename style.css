@@ -130,10 +130,10 @@
             display: inline-block;
             border: 2px solid #c8ff00;
             color: #c8ff00;
-            z-index: 9999;
+            z-index: 9997;
             margin-top: -4rem;
             margin-left: -4rem;
-            padding: 2.5rem 12rem;
+            padding: 2.5rem 8rem;
             margin-bottom: 2rem;
             height: 35rem;
             font-weight: 600;
@@ -151,6 +151,8 @@
         }
 
         .hero-cta {
+            position: fixed;     /* or 'absolute' depending on layout */
+            z-index: 10000;
             display: inline-block;
             background: transparent;
             border: 2px solid white;
@@ -163,6 +165,8 @@
         }
 
         .hero-cta:hover {
+            position: fixed;     /* or 'absolute' depending on layout */
+            z-index: 10000;
             background: #c8ff00;
             border-color: #c8ff00;
             color: #333;
