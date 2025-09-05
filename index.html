@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tranquility creations - Architecture & Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-indicator">
+        <div class="scroll-progress" id="scrollProgress"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav">
+            <a href="#" class="logo">Tranquility creations</a>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="contact-info">
+                <span class="phone">CALL US: (+245) 746 312 312 </span>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/tranquillitycreations/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="https://www.instagram.com/tranquilitycreations/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-badge">HOUSE</div>
+            <h1 class="hero-title">Small<br>House Near<br>Wroclaw</h1>
+            <a href="#projects" class="hero-cta">See project</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about animate-on-scroll" id="about">
+        <div class="about-container">
+            <div class="about-content">
+                <h3>About Us</h3>
+                <h2>We Are The Leader In The Architectural</h2>
+                <p>As industry leaders, we specialize in architectural design excellence who are know and active in the field to create architectural design for your project. As well as bringing together the knowledge and to learn from each other.</p>
+                
+                <div class="experience-badge">
+                    <div class="experience-number">
+                        <h3>10</h3>
+                    </div>
+                    <div class="experience-text">
+                        <p>Years<br>Experience<br>Working</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about-image">
+                <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 400'><rect fill='%23a0825c' width='500' height='400'/><rect fill='%23d4af37' x='50' y='50' width='400' height='300'/><rect fill='%238b4513' x='100' y='100' width='100' height='200'/><rect fill='%238b4513' x='300' y='100' width='100' height='200'/><rect fill='%23696969' x='0' y='350' width='500' height='50'/></svg>" alt="Architecture">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects animate-on-scroll" id="projects">
+        <div class="projects-container">
+            <div class="projects-header">
+                <h2>Latest Projects</h2>
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="building">Building</button>
+                    <button class="filter-btn" data-filter="interior">Interior & Exterior</button>
+                    <a href="#" class="view-all">View All Projects</a>
+                </div>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card" data-category="building">
+                    <div class="project-image">
+                        <div class="project-content">
+                            <h3>Triangle Concrete House On Lake</h3>
+                            <p>Modern lakeside architecture with geometric design</p>
+                            <a href="#" class="project-link">See project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="building">
+                    <div class="project-image" style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);">
+                        <div class="project-content">
+                            <h3>Ocean Museum Italy</h3>
+                            <p>Contemporary museum design by the coastline</p>
+                            <a href="#" class="project-link">See project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="building">
+                    <div class="project-image" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                        <div class="project-content">
+                            <h3>Miller Co-Working Building</h3>
+                            <p>Innovative workspace architecture for modern businesses</p>
+                            <a href="#" class="project-link">See project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="interior">
+                    <div class="project-image" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);">
+                        <div class="project-content">
+                            <h3>Redesign Interior For Villa</h3>
+                            <p>Luxury interior design with panoramic views</p>
+                            <a href="#" class="project-link">See project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials animate-on-scroll">
+        <div class="testimonials-container">
+            <h2>From Great Our Clients</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <div class="testimonial-text">
+                        "The team at Tranquility creations delivered exceptional architectural design that exceeded our expectations. Their attention to detail and innovative approach transformed our vision into reality."
+                    </div>
+                    <div class="testimonial-author">Sarah Johnson, CEO</div>
+                </div>
+            </div>
+            <div class="slider-nav">
+                <button class="slider-btn" id="prevBtn"><i class="fas fa-arrow-left"></i></button>
+                <button class="slider-btn" id="nextBtn"><i class="fas fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="about animate-on-scroll" id="services">
+        <div class="about-container">
+            <div class="about-content">
+                <h3>Our Services</h3>
+                <h2>Complete Architectural Solutions</h2>
+                <p>We offer comprehensive architectural services from initial concept design to project completion. Our team specializes in residential, commercial, and institutional architecture.</p>
+                
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 1rem;"><i class="fas fa-check" style="color: #c8ff00; margin-right: 0.5rem;"></i> Architectural Design</li>
+                    <li style="margin-bottom: 1rem;"><i class="fas fa-check" style="color: #c8ff00; margin-right: 0.5rem;"></i> Interior Design</li>
+                    <li style="margin-bottom: 1rem;"><i class="fas fa-check" style="color: #c8ff00; margin-right: 0.5rem;"></i> Project Management</li>
+                    <li style="margin-bottom: 1rem;"><i class="fas fa-check" style="color: #c8ff00; margin-right: 0.5rem;"></i> 3D Visualization</li>
+                </ul>
+            </div>
+            
+            <div class="about-image">
+                <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 400'><rect fill='%23f0f0f0' width='500' height='400'/><rect fill='%23333' x='50' y='50' width='400' height='20'/><rect fill='%23666' x='50' y='90' width='400' height='260'/><rect fill='%23c8ff00' x='100' y='140' width='80' height='100'/><rect fill='%23c8ff00' x='220' y='140' width='80' height='100'/><rect fill='%23c8ff00' x='340' y='140' width='80' height='100'/></svg>" alt="Services">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Tranquility creations</h3>
+                <p>Leading architectural firm specializing in modern design and sustainable building solutions.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Services</h3>
+                <a href="#">Architectural Design</a>
+                <a href="#">Interior Design</a>
+                <a href="#">Project Management</a>
+                <a href="#">Consultation</a>
+                <a href="#">3D Visualization</a>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-phone"></i> (+245) 746 312 312</p>
+                <p><i class="fas fa-envelope"></i> tranquillitycreations@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> 159 Wamakumi hse, Wangige</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Tranquility creations. All rights reserved.</p>
+        </div>
+    </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
