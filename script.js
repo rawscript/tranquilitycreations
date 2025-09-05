@@ -160,7 +160,7 @@
         // Counter animation for experience years
         function animateCounter() {
             const counter = document.querySelector('.experience-number h3');
-            const target = 26;
+            const target = 10;
             let current = 0;
             const increment = target / 100;
             const timer = setInterval(() => {
