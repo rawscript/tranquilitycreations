@@ -126,16 +126,22 @@
         }
 
         .hero-badge {
+            position: fixed; /* or 'absolute' or 'relative' */
             display: inline-block;
             border: 2px solid #c8ff00;
             color: #c8ff00;
-            padding: 2.5rem 15rem;
+            z-index: 9999;
+            margin-top: -4rem;
+            margin-left: -4rem;
+            padding: 2.5rem 12rem;
             margin-bottom: 2rem;
+            height: 35rem;
             font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 1px;
             animation: fadeInUp 1s ease;
         }
+
 
         .hero-title {
             font-size: clamp(2.5rem, 5vw, 4rem);
